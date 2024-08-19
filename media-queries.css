@@ -68,6 +68,8 @@
       .link-column{
         align-items: stretch;
       }
+      
+
 }
 
 @media screen and (max-width:479px) {

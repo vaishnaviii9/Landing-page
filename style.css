@@ -8,7 +8,7 @@
 
 :root {
   --primary-text-color: #e9f0f9;
-  --secondary-text-color:#183b56;
+  --secondary-text-color:#5a6e83;
   --accent-color: #2294ed;
   --accent-color-dark: #1d69a3;
   --padding-inline-section: 20px;
@@ -96,7 +96,7 @@ ul {
 /* top banner */
 .top-banner {
   /* background-image: url("./assets/asset\ 30.png"); */
-  background-color: lightslategrey;
+  background-color: rgb(67, 91, 114);
   color: antiquewhite;
   background-size: 300px;
 
@@ -109,6 +109,7 @@ ul {
 }
 /* nav bar */
 .main-nav {
+  
   position: relative;
   margin-top: 20px;
   justify-content: space-between;
@@ -237,7 +238,7 @@ header {
   transition: 0.2s ease-out;
 }
 .examples-card:hover{
-    box-shadow:0 0 10px #888 ;
+    box-shadow:0 0 15px #000000 ;
 }
 .examples-card:nth-child(3)
 {
@@ -252,7 +253,7 @@ header {
 
 /* cta section */
 .cta-section{
-    padding: 1px var(--padding-inline-section) 80px;
+    padding: 50px var(--padding-inline-section) 80px;
     background-color: #183b54;
 }
 .cta-section-container{
