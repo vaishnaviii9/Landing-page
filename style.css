@@ -7,8 +7,8 @@
 }
 
 :root {
-  --primary-text-color: #183b56;
-  --secondary-text-color: #577592;
+  --primary-text-color: #e9f0f9;
+  --secondary-text-color:#183b56;
   --accent-color: #2294ed;
   --accent-color-dark: #1d69a3;
   --padding-inline-section: 20px;
@@ -17,6 +17,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: var(--primary-text-color);
+  background-color: var(--secondary-text-color);
 }
 
 h1 {
@@ -31,7 +32,7 @@ h3 {
 p {
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   line-height: 1.8rem;
 }
 a {
@@ -94,8 +95,9 @@ ul {
 
 /* top banner */
 .top-banner {
-  background-image: url("./assets/asset\ 30.png");
-  background-color: #4fb3d4;
+  /* background-image: url("./assets/asset\ 30.png"); */
+  background-color: lightslategrey;
+  color: antiquewhite;
   background-size: 300px;
 
   /* background-repeat: no-repeat; */
@@ -176,10 +178,10 @@ header {
   margin-bottom: 20px;
 }
 .features-area {
-  margin-top: 20px;
+  margin-top: 25px;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
 }
 .features-card {
   flex-direction: column;
@@ -208,6 +210,8 @@ header {
 .feature-desc {
   flex-direction: column;
   align-items: flex-start;
+  font-size:x-large;
+  
 }
 
 /* examples section */
@@ -248,7 +252,7 @@ header {
 
 /* cta section */
 .cta-section{
-    padding: 120px var(--padding-inline-section) 80px;
+    padding: 1px var(--padding-inline-section) 80px;
     background-color: #183b54;
 }
 .cta-section-container{
@@ -265,16 +269,18 @@ header {
 /* footer */
 footer{
     padding-block: 80px;
-    background-color: #e9f0f9;
+   
 }
 .link-column{
+  justify-content: stretch;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
 }
 .footer-container{
+
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .link-column h4{
     font-size: x-large;
@@ -284,7 +290,7 @@ footer{
 }
 /* sub footer */
 .subfooter{
-    background-color: #b9cde4;  
+    
     padding: var(--padding-inline-section); 
 }
 .subfooter-container{

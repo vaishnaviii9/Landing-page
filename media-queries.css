@@ -14,7 +14,7 @@
     .nav-links{
         /* display: none; */
         position: absolute;
-        background-color:white;
+        background-color:rgb(52, 72, 86);
         left: -100%;
         top: 100%;
         width: 100%;
